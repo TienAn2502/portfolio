@@ -1,14 +1,16 @@
 {
     "appHeader": {
-        "brand": "Hỏi Dân IT",
+        "brand": "Nguyễn Tiến An",
         "home": "Trang chủ",
         "project": "Dự án",
         "contact": "Liên hệ",
         "about": "Về tác giả"
     },
     "heroSection": {
+        "hello": "Xin chào",
         "exp": "Kinh nghiệm",
-        "cv": "Tải Resume"
+        "cv": "Tải Resume",
+        "introPrefix": "Mình là"
     },
     "introSection": {
         "about": "Giới thiệu",

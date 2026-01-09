@@ -1,14 +1,16 @@
 {
     "appHeader": {
-        "brand": "Hoi Dan IT",
+        "brand": "Nguyen Tien An",
         "home": "Home",
         "project": "Project",
         "contact": "Contact",
         "about": "About"
     },
     "heroSection": {
+        "hello": "Hi there",
         "exp": "My Skill",
-        "cv": "Get Resume"
+        "cv": "Get Resume",
+        "introPrefix": "I'm"
     },
     "introSection": {
         "about": "About me",
