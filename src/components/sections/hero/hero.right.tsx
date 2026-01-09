@@ -1,6 +1,8 @@
+import { useTranslation } from 'react-i18next';
 import './hero.scss';
 
 const HeroRight = () => {
+    const { t } = useTranslation();
     return (
         <div className='hero-right'>
             <div className='border-top'></div>
@@ -20,7 +22,9 @@ const HeroRight = () => {
                     <div>
                         <span className='ms-4 me-2'>name:</span>
                         <span className='text-yellow-500'>
-                            {`'`}Nguyễn Tiến An{`',`}
+                            {`'`}
+                            {t('appHeader.brand')}
+                            {`',`}
                         </span>
                     </div>
                     <div className='ms-4 me-2 text-pink-200'>

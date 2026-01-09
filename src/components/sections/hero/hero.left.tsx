@@ -50,10 +50,10 @@ const HeroLeft = ({ handleScroll }: { handleScroll: () => void }) => {
                     }}
                     scrollInto={handleScroll}
                 />
-                <ResizeButton
+                {/* <ResizeButton
                     btnText={t('heroSection.cv')}
                     btnIcons={<MdFileDownload />}
-                />
+                /> */}
             </div>
         </div>
     );
